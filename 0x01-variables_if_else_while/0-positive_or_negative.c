@@ -13,6 +13,7 @@ int main(void)
 	if (n>0)
 	{
 	printf("%d\n is positive",n);
+	}
 	if (n==0)
 	{
 	printf("%d\n is zero",n);
