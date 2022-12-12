@@ -4,12 +4,12 @@
  *
  * Description: 'the program's description'
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
 int main(void)
 {
 int letter;
-for (letter = 'z'; letter <= 'a'; letter--)
-putchar(letter);
+for (letter = ‘z’; letter >= ‘a’; letter–)
+(letter = ‘z’; letter >= ‘a’; letter–)
 return (0);
 }
