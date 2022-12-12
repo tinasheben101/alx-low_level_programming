@@ -12,5 +12,5 @@ int main(void)
 	int x;
 	for(x = 'a'; x <= 'b'; x++)
 	putchar(x);
-	retrun (0);
+	return (0);
 }
