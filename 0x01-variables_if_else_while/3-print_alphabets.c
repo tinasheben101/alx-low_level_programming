@@ -13,7 +13,6 @@ int x, y;
 
 	for(x = 'A'; x <= 'Z'; x++)
 	putchar(x);
-	putchar('\n');
 
 	for (y = 'a'; y <= 'z'; y++)
 	putchar(y);
