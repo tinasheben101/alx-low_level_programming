@@ -10,6 +10,6 @@ int main(void)
 {
 int letter;
 for (letter = ‘z’; letter >= ‘a’; letter–)
-(letter = ‘z’; letter >= ‘a’; letter–)
+putchar(letter);
 return (0);
 }
