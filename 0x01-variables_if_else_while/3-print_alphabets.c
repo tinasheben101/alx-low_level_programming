@@ -15,7 +15,7 @@ int x, y;
 	putchar(x);
 	putchar('\n');
 
-	for (y = ‘a’; y <= ‘z’; y++)
+	for (y = 'a'; y <= 'z'; y++)
 	putchar(y);
 	putchar('\n');
 	return (0);
