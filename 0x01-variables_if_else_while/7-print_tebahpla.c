@@ -2,14 +2,14 @@
 /**
  * main - Entry point
  *
- * Description: 'the program's description'
- *
  * Return: Always 0.
  */
 int main(void)
 {
-int letter;
+int x;
+
 for (letter = ‘z’; letter >= ‘a’; letter–)
 putchar(letter);
+putchar('\n');
 return (0);
 }
