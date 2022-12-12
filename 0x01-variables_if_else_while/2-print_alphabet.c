@@ -10,6 +10,6 @@
 int main(void)
 {
 	int x;
-	for(x = 'A'; x <= 'Z'; x++)
+	for(x = 'a'; x <= 'b'; x++)
 	putchar(tolower(x));
 }
