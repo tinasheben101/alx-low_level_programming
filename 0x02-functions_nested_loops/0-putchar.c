@@ -10,7 +10,7 @@
 int main(void)
 { 
 	const char *c = "_putchar";
-	_putchar(h);
+	_putchar(c);
 	_putchar('\n');
 
 	return 0;
