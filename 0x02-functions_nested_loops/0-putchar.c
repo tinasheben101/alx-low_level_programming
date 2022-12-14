@@ -8,8 +8,9 @@
  */
 
 int main(void)
-{
-	_putchar(_putchar);
+{ 
+	const char *h = "_putchar";
+	_putchar(h);
 	_putchar('\n');
 
 	return 0;
