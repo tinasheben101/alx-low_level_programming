@@ -8,7 +8,7 @@
  * Returns Always 0 (Success)
  */
 
-int main void
+int main(void)
 {
 	_putchar('_putchar');
 	_putchar('\n');
