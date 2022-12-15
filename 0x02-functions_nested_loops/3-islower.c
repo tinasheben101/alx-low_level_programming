@@ -7,7 +7,6 @@
  */
 int main(void)
 {
-int r;
 if (c >= 'a' && c <= 'z')
 	return (1);
 else
