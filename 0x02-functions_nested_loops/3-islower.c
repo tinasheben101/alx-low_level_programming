@@ -5,7 +5,7 @@
  * 
  * Returns Always 0 (Success)
  */
-int main(int c)
+int main(void)
 {
 if (c >= 'a' && c <= 'z')
 	return (1);
