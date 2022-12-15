@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * main - Entry point
- * Description: 'the program's description'
+ * Description: 'print alphabet ten times'
  *
  * Returns Always 0 (Success)
  */
