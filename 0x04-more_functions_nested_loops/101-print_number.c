@@ -1,5 +1,5 @@
 #include "main.h"
-
+void print_integer(int m);
 
 /**
  * print_number - a function that prints an integer.
@@ -24,7 +24,7 @@ void print_number(int n)
  * @m: an input unsigned integer
  * Return: Nothin
  */
-void print_integer(int n)
+void print_integer(int m)
 {
 	int i = 1000000000;
 
