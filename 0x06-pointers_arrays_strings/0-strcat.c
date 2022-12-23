@@ -6,15 +6,15 @@
 
 char *_strcat(char *dest, char *src)
 {
-char dest = "Hello";
-char src = "World";
-char *ptr;
+char *temp = dest;
 
-printf("%s\n", dest);
-printf("%s", src);
-ptr = dest + src;
-printf("%s", dest);
-printf("%s", src);
-printf("%s", ptr);
-return dest;
+while (*dest)
+	dest++;
+
+while (*src)
+	*dest++ = *src++;
+
+*dest = '\0';
+return (temp);
 }
+
