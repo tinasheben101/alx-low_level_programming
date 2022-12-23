@@ -12,7 +12,7 @@ char *ptr;
 
 printf("%s\n", dest);
 printf("%s", src);
-ptr = _strcat(dest, src);
+ptr = dest + src;
 printf("%s", dest);
 printf("%s", src);
 printf("%s", ptr);
